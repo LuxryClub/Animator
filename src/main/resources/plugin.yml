@@ -1,0 +1,7 @@
+name: Animator
+version: ${project.version}
+author: Luxry
+main: club.luxry.animator.Animator
+commands:
+  animatorreload:
+    description: Reloads the config
