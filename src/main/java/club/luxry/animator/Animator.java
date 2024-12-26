@@ -13,7 +13,9 @@ import java.util.regex.Pattern;
 
 public class Animator extends JavaPlugin {
 
+    @Getter
     private static final Map<String, AnimationData> animations = new HashMap<>();
+    @Getter
     private static final Random random = new Random();
 
     @Override
